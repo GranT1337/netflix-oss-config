@@ -1,2 +1,7 @@
+zuul:
+  routes:
+    workspaces-api: /workspaces-service/**
+    employees-api: /employees-service/**
+
 server:
   port: 9094
